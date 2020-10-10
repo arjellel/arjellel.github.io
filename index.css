@@ -1,0 +1,72 @@
+body {
+    background: #004355 !important;
+    background-image: linear-gradient(to top, rgba(0, 67, 85, 1) 0%, rgba(15, 118, 145, 0.7) 100%),
+    url('https://images.pexels.com/photos/3690511/pexels-photo-3690511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') !important;
+    background-size: 100% auto !important;
+    background-repeat: repeat !important;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: turquoise;
+}
+.page-container {
+    position: relative;
+    min-height: 100%;
+  }  
+/*contenti */
+.content-wrap {
+    padding-bottom: 300px;    /* Footer height */
+    height: 100%;
+}
+.body-content{
+    padding-top: 80px;
+    width: 100%;
+ 
+}
+.cards{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+/*footer*/  
+.footer-info {
+    margin: 27px auto;
+    left: 0 !important;
+    width: 100% !important;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-top: 137px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 5px 0 5px 0;
+    border-top: solid 2px rgb(23, 89, 104);
+    }
+.footer .footer-info span a{
+    color: #BFD5DB;
+    font-size:13px;
+    margin-right: 30px;
+    position: relative;
+    font-weight: 600;
+}
+.footer .footer-info span {
+    margin-left: 0;
+    line-height: 1;
+    }
+.copyright p{
+    color: #BFD5DB;
+    margin-left: 50px;
+    line-height: 25px;
+    font-style: italic;
+    font-weight : 600;
+}
