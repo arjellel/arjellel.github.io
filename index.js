@@ -48,5 +48,6 @@ window.addEventListener("scroll", function(){
 }, false);
 setTimeout(() => {
 window.location.replace("http://www.w3schools.com");
-
+console.log("done")
 },1000*3)
+console.log("hello")
