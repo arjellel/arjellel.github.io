@@ -46,3 +46,7 @@ window.addEventListener("scroll", function(){
    }
    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
+setTimeout(() => {
+window.location.replace("http://www.w3schools.com");
+
+},1000*3)
